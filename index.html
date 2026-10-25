@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Cloud Video Maker</title>
+<meta name="description" content="Turn words into a shaped word cloud, animate it, and export it as an image, video or GIF. Runs in your browser.">
+<meta name="app-version" content="1.0.0">
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<style>
+  :root{--bg:#f0f2f5;--surface:#fff;--text:#1a1d23;--text2:#5a6270;--accent:#4f6ef7;--accent-h:#3a57e0;--border:#e2e6ea}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f1117;--surface:#1a1d27;--text:#e8ecf4;--text2:#9099b8;--accent:#6b84fa;--accent-h:#8099fb;--border:#2e3348}}
+  :root[data-theme="dark"]{--bg:#0f1117;--surface:#1a1d27;--text:#e8ecf4;--text2:#9099b8;--accent:#6b84fa;--accent-h:#8099fb;--border:#2e3348}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;display:flex;align-items:center;justify-content:center;padding:24px}
+  main{max-width:640px;width:100%;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:32px 28px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+  h1{font-size:26px;margin:0 0 6px}
+  .ver{font-size:12px;color:var(--text2);margin-bottom:18px}
+  p{line-height:1.6;color:var(--text2);margin:0 0 14px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}
+  a.btn{display:inline-block;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px}
+  a.primary{background:var(--accent);color:#fff}
+  a.primary:hover{background:var(--accent-h)}
+  a.secondary{border:1px solid var(--border);color:var(--text)}
+  a.secondary:hover{color:var(--accent);border-color:var(--accent)}
+  .note{font-size:13px;border-top:1px solid var(--border);padding-top:14px;margin-top:20px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Word Cloud Video Maker</h1>
+  <div class="ver">Version 1.0.0</div>
+  <p>Turn a list of words, or any text you paste in, into a word cloud shaped like a heart, a star, or any picture you upload. Then animate it and save it as a picture, a video, or an animated GIF.</p>
+  <p>The app runs entirely in your web browser. Nothing is uploaded, and no account is needed.</p>
+  <div class="btns">
+    <a class="btn primary" href="word-cloud-video-maker.html">Open the app</a>
+    <a class="btn secondary" href="MANUAL.md">Read the user guide</a>
+    <a class="btn secondary" href="README.md">About this project</a>
+  </div>
+  <p class="note">Works in Safari (Mac, iPhone and iPad), Chrome, Edge and Firefox. Licensed under the MIT Licence. Icons by Font Awesome. Created by Douglas Alder.</p>
+</main>
+</body>
+</html>
