@@ -1,5 +1,5 @@
 # Word Cloud Video Maker
-[Launch Word Cloud Video Maker app](https://dougalder.github.io/word-cloud-video-maker/word-cloud-video-maker.html/)
+[Launch Word Cloud Video Maker app](https://dougalder.github.io/word-cloud-video-maker/word-cloud-video-maker.html)
 **Version 1.0.0**
 
 Word Cloud Video Maker turns a list of words into a picture or a short animation. Each word is sized by how important it is. You can paste in any text and the app will count the words for you, or you can type your own list. The words are packed into a shape you choose, such as a heart, a circle, or a shape you upload. You can then download the result as a still image or as a video.
